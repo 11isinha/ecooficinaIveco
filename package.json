@@ -6,7 +6,7 @@
   "homepage": "https://11isinha.github.io/ecooficinaIveco",
   "scripts": {
     "dev": "vite",
-   "build": "vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
