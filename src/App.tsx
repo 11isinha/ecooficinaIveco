@@ -333,7 +333,7 @@ export default function App() {
               </span>
 
               <h1 className="text-3xl sm:text-5xl md:text-6xl font-black text-white tracking-tight leading-tight break-words">
-                Peças de Reposição IVECO com <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">Filamento de Algas</span>
+                Peças de Reposição IVECO <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">Uma nova forma de Projetar. Uma nova forma de Produzir</span>
               </h1>
 
               <p className="text-base sm:text-xl text-slate-100 max-w-3xl mx-auto leading-relaxed break-words font-normal">
