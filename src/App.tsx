@@ -186,7 +186,8 @@ export default function App() {
         motivo_substituicao: 'Peça ressecada, trincada e fora de linha comercial.',
         material_biodegradavel: newPart.material_biodegradavel || 'Flexy Green Pro (Algal-PA)',
         co2_economizado: newPart.co2_economizado || '12.8 kg CO₂',
-        imagem_url: filePreview || newPart.imagem_url || 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80'
+        // Substitua '/caminho/para/sua/imagem.jpg' pelo caminho local ou URL final da imagem
+        imagem_url: filePreview || newPart.imagem_url || '/caminho/para/sua/imagem.jpg'
       });
       stopCamera();
     }, 2200);
